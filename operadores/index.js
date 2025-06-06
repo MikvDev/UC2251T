@@ -62,19 +62,19 @@
 // console.log(calculoFinal)
 
 
-let numeroInicial =  8
-let multiplicador = 5
-let divisor = 4
+// let numeroInicial =  8
+// let multiplicador = 5
+// let divisor = 4
 
-let passo1 = numeroInicial * multiplicador
-console.log(passo1)
-let passo2 = passo1 / divisor
-console.log(passo2)
-let passo3 = passo2 % 7
-console.log(passo3)
-let passo4 = passo3 + 10 
-let passo5 = passo4 - (3 * numeroInicial)
+// let passo1 = numeroInicial * multiplicador
+// console.log(passo1)
+// let passo2 = passo1 / divisor
+// console.log(passo2)
+// let passo3 = passo2 % 7
+// console.log(passo3)
+// let passo4 = passo3 + 10 
+// let passo5 = passo4 - (3 * numeroInicial)
 
 
 
-console.log(passo5)
+// console.log(passo5)
