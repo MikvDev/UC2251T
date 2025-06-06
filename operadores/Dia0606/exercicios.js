@@ -53,7 +53,7 @@ let PCD = false
 let vagaEspecial = (idoso == true) || (PCD == true)
 
 
-console.log( "A pessoa pode estacioanar?",vagaEspecial)
+//console.log( "A pessoa pode estacioanar?",vagaEspecial)
 
 
 
@@ -61,4 +61,56 @@ console.log( "A pessoa pode estacioanar?",vagaEspecial)
 // const verificacão = idade >= 18
 // const assinaturaPaga =  
 
+// caso 5 
+
+
+//var 
+
+var temControle = true
+var consoleConetadATv = false 
+
+
+
+// jogar 
+var jogar = (temControle == true) || (consoleConetadATv == true)
+//console.log("Você pode jogar?", temControle)
+
+
+//caso 6 
+
+// var 
+
+var usuarioLogado = false 
+var temPermissãoADM = true
+
+// Entrar 
+
+var entrar = (usuarioLogado == true) && ( temPermissãoADM == true)
+
+
+//console.log("usuario pode entrar? ==> ",entrar);
+
+//caso 7
+
+//var
+
+var nota1 = 10
+var nota2 = 4
+var nota3 = 6 
+var NR = 8
+var NF = 6
+
+
+//calculo das notas
+
+var calculofinal = (NF >= 7 ) 
+var calculoRecuperação = (NR  >= 8 ) 
+var calculoTrabalhos = ( nota1 >= 6 ) && (nota2 >= 6 ) 
+
+// 
+var aprovacao = (calculofinal == true) 
+
+
+
+console.log(calculofinal);
 
