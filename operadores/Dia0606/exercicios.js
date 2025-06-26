@@ -94,23 +94,13 @@ var entrar = (usuarioLogado == true) && ( temPermissãoADM == true)
 
 //var
 
-var nota1 = 10
-var nota2 = 4
-var nota3 = 6 
-var NR = 8
-var NF = 6
+let NF = 9 
+let NR = 8
+let t1 = 7 
+let t2 = 9 
+let t3 = 5 
 
+let tranbalhosaprovados = (t1 > 6) + (t2 > 6) + ( t3 > 6)
+let aprovado = (NF > 7) || (NR >= tranbalhosaprovados >= 2)
 
-//calculo das notas
-
-var calculofinal = (NF >= 7 ) 
-var calculoRecuperação = (NR  >= 8 ) 
-var calculoTrabalhos = ( nota1 >= 6 ) && (nota2 >= 6 ) 
-
-// 
-var aprovacao = (calculofinal == true) 
-
-
-
-console.log(calculofinal);
-
+console.log(aprovado)
