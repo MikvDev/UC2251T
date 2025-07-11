@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+
+
+    
+    <div class="container">
+        <img src="assets/pedra-papel-tesoura.png" alt="">
+        <h1>
+            Pedra papel ou tesoura  
+           </h1>
+        
+           <div class="choices"> <!-- Div que agrupa os botoes de escolha -->
+                <button data-choice="pedra">🪨</button><!-- Aqui é um botão para escolher pedra .. no caso,
+                 utilizamos um atributo personalizado que começa com data-
+                 (que armazena informações extras para usarmos em JS)-->
+                 <button data-choice="papel">🧻</button>
+                 <button data-choice="tesoura">✂️</button>
+           </div>
+            <div class="PC">
+                <p id="Player1-choice"> Jogador 1: escolha sua jogada:</p>
+                <p id="Player2-choice"> jogador 2: escolha sua jogada:</p>
+                <p id="winner" input = "text" placeholder="Quem venceu?"> </p>
+     
+            </div>
+            
+         
+    </div>
+   
+   
+
+    <script src="assets/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>

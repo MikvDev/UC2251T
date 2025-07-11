@@ -7,7 +7,7 @@
 </head>
 <body>
     <button onclick="perguntarNome()">Qual é seu nome?</button>
-
+<button onclick="perguntarIdade()"> Clique aqi</button>
 <script>
 function perguntarNome() {
   Swal.fire({
@@ -28,8 +28,20 @@ function perguntarNome() {
     }
   });
 }
+
+
+function perguntarIdade(){
+  Swal.fire({
+    title: 'Qual',
+    input: 'text',
+    inputPlaceholder: 'digite aqui',
+    showCancelButton: 'cancele'
+  })
+}
 </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+<dl>
+  afaf
+</dl>
 </body>
 </html>

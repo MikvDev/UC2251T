@@ -1,0 +1,99 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: 'Segoe UI', sans-serif; /* Fonte moderna */
+    background: linear-gradient(to right, #9fd2d9, #e1bee7); /* Gradiente azul-claro para roxo */
+    text-align: center; /* Centraliza tudo */
+    padding: 30px;
+    margin: 0;
+  }
+  
+:root {
+    --font:Jura
+
+}
+  /* Título principal */
+  h1 {
+    color: hsla(0, 0%, 0%, 0.71);
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-family: var(--font);
+    font-weight: 700;
+  }
+  
+  /* Container que posiciona os cards lado a lado */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;           /* Permite quebrar linha em telas pequenas */
+    justify-content: center;   /* Centraliza os cards */
+    gap: 40px;                 /* Espaço entre os cards */
+  }
+  
+  /* Estilo base para cada card */
+  .card {
+    background-color: white;
+    border-radius: 15px;         /* Bordas arredondadas */
+    width: 250px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(247, 244, 244, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animações suaves */
+  }
+  
+  /* Efeito ao passar o mouse sobre o card */
+  .card:hover {
+    transform: translateY(-10px); /* Move o card para cima */
+    box-shadow: 0 15px 30px rgba(14, 0, 0, 0.2); /* Aumenta a sombra */
+  }
+  
+  /* Card de Soft Skills: azul */
+  .card.soft {
+    border-top: 6px solid #2196F3; /* Azul */
+  }
+  
+  /* Card de Hard Skills: roxo */
+  .card.hard {
+    border-top: 6px solid #9C27B0; /* Roxo */
+  }
+  
+  /* Título dentro do card */
+  .card h2 {
+    color: #444;
+    margin-bottom: 20px;
+    
+  }
+  h2 {
+    font-family: var(--font);
+  }
+  
+  /* Estilização dos botões */
+  button {
+    background: linear-gradient(to right, #42a5f5, #7e57c2); /* Gradiente azul-roxo */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: 0.2s ease-in-out;
+   
+  }
+  
+  /* Efeito ao passar o mouse no botão */
+  button:hover {
+    background: linear-gradient(to right, #1e88e5, #6a1b9a);
+    transform: scale(1.1);
+  }
+  
+  /* Estilo das áreas de pergunta e resposta */
+  #pergunta, #resposta {
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f9f9f9d9;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

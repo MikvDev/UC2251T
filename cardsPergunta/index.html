@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+        
+        <h1>
+            Escolha um tipo de habilidade 
+        </h1>
+        <div class="cards-container">
+         <div class="c-softSkills">
+            <h2> Soft Skills</h2>
+            <button onclick="mostrarPergunta('soft')"> Ver pergunta</button>
+         </div>
+         <div class="c-hardSkills">
+        <h2> Hard Skills</h2>
+        <button onclick="mostrarPergunta('hard')">Ver pergunta</button>
+         </div>
+        </div>
+        <div id="pergunta"></div>
+        <div id="resposta"></div>
+        <style>
+           
+            h2 {
+               
+                border-radius: 2px;
+                margin: 60px;
+                text-decoration: underline;
+               
+            }
+            h1{
+                color: black;
+                
+            }
+          #pergunta {
+            width: 200px;
+          }
+          #resposta {
+            width: 200px;
+          }
+
+        </style>
+
+
+    
+<script src="assets/index.js"></script>
+
+
+</body>
+</html>
